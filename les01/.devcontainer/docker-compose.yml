@@ -1,0 +1,9 @@
+services: 
+  python-dev:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: python-dev
+    volumes:
+      - ..:/code:cached
+    command: sleep infinity
