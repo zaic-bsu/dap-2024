@@ -1,9 +1,9 @@
 services: 
-  python-dev:
+  dap-2024-les01:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: python-dev
+    container_name: dap-2024-les01
     volumes:
       - ..:/code:cached
     command: sleep infinity
