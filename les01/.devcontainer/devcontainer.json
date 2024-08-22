@@ -14,7 +14,13 @@
                 "terminal.integrated.defaultProfile.linux": "zsh",
                 "editor.formatOnSave": true
             },
-            "extensions": ["ms-python.python","ms-python.debugpy", "ms-python.vscode-pylance", "ms-toolsai.jupyter"]
+            "extensions": [
+                "ms-python.python",
+                "ms-python.debugpy",
+                "ms-python.vscode-pylance",
+                "ms-toolsai.jupyter",
+                "ms-python.debugpy"
+            ]
         }
-    }    
+    }
 }
