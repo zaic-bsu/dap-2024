@@ -1,0 +1,6 @@
+ipykernel==6.29.5
+ipython==8.26.0
+numpy==1.26.0
+pandas==2.2.2
+xlrd >= 2.0.1
+notebook==7.2.1

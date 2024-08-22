@@ -1,0 +1,10 @@
+services: 
+  dap-2024-les01:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: dap-2024-les01
+    ports: ['8888:8888']
+    volumes:
+      - ..:/code:cached
+    command: custom-start.sh
