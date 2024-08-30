@@ -1,9 +1,9 @@
 services: 
-  dap-2024-les02:
+  dap-2024-les03:
     build:
       context: .
       dockerfile: Dockerfile
-    container_name: dap-2024-les02
+    container_name: dap-2024-les03
     volumes:
       - ..:/code:cached
     command: sleep infinity

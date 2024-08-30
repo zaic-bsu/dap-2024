@@ -1,5 +1,5 @@
 {
-    "name": "lab01",
+    "name": "les01",
     "dockerComposeFile": "docker-compose.yml",
     "service": "dap-2024-les01",
     "workspaceFolder": "/code",

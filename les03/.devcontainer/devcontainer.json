@@ -1,7 +1,7 @@
 {
-    "name": "les02",
+    "name": "les03",
     "dockerComposeFile": "docker-compose.yml",
-    "service": "dap-2024-les02",
+    "service": "dap-2024-les03",
     "workspaceFolder": "/code",
     "customizations": {
         "vscode": {
